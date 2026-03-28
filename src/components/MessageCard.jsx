@@ -11,7 +11,7 @@ export default function MessageCard({ message, onMessageChange, recipientName, o
       <div className="message-card-wrapper">
         <div className="note-card-container">
           <img
-            src="/note-card.png"
+            src={`${import.meta.env.BASE_URL}note-card.png`}
             alt="Note card"
             className="message-card-img"
           />
