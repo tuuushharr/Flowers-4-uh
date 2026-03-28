@@ -417,7 +417,7 @@
 .bouquet-preview-container::before {
   content: '';
   position: absolute;
-  inset: -60px;
+  inset: -20px;
   background: url('/bouquet-bg.png') center / contain no-repeat;
   z-index: 0;
   pointer-events: none;
@@ -692,7 +692,6 @@
 .note-to input {
   background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(100, 70, 50, 0.3);
   font-family: 'Dancing Script', cursive;
   font-size: 1.15rem;
   color: var(--text);
@@ -751,7 +750,6 @@
 .note-from input {
   background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(100, 70, 50, 0.3);
   font-family: 'Dancing Script', cursive;
   font-size: 1.1rem;
   color: var(--text);

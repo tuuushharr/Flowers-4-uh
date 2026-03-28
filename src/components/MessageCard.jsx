@@ -20,7 +20,7 @@ export default function MessageCard({ message, onMessageChange, recipientName, o
             <label>To:</label>
             <input
               type="text"
-              placeholder="Someone special..."
+              placeholder="Goluuu Sanika"
               value={recipientName}
               onChange={e => onRecipientChange(e.target.value)}
               maxLength={40}
@@ -29,7 +29,7 @@ export default function MessageCard({ message, onMessageChange, recipientName, o
 
           <div className="note-message">
             <textarea
-              placeholder="Write something from the heart..."
+              placeholder="Here are flowers for uh goleeee ..."
               value={message}
               onChange={e => onMessageChange(e.target.value)}
               rows={3}
@@ -41,7 +41,7 @@ export default function MessageCard({ message, onMessageChange, recipientName, o
             <label>With love,</label>
             <input
               type="text"
-              placeholder="Your name"
+              placeholder="Tera dost Dudu"
               maxLength={30}
             />
           </div>
