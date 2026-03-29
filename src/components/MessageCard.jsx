@@ -20,7 +20,7 @@ export default function MessageCard({ message, onMessageChange, recipientName, o
             <label>To:</label>
             <input
               type="text"
-              placeholder="Goluuu Sanika"
+              placeholder="Hey "
               value={recipientName}
               onChange={e => onRecipientChange(e.target.value)}
               maxLength={40}
